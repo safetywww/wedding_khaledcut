@@ -21,7 +21,7 @@ export const wishas = () => {
   `<figure data-aos="zoom-in" data-aos-duration="1000">
       <img src=${data.icon} alt="bank icon animation">
       <figcaption style="display: none;">No. Rekening ${data.rekening} <br>A.n ${data.name}</figcaption>
-      <button data-rekening=${data.rekening} aria-label="copy rekening">Salin Rekening</button>
+      <button data-rekening=${data.rekening} aria-label="copy rekening">M Khaled_Cut Fitriani</button>
    </figure>`
 );
 
@@ -41,7 +41,7 @@ export const wishas = () => {
                     console.log(`Error : ${error.message}`);
                 } finally {
                     setTimeout(() => {
-                        button.textContent = 'Salin No. Rekening';
+                        button.textContent = 'M Khaled_Cut Fitriani';
                     }, 2000);
                 }
             });
