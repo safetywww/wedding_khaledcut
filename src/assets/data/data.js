@@ -2,7 +2,7 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'M Khaled',
+            name: 'MKhaled',
             child: 'Putra ke empat',
             father: 'Alm. Hasyem AR',
             mother: 'Alm. Nuraini S',
@@ -10,7 +10,7 @@ export const data = {
         },
         P: {
             id: 2,
-            name: 'Cut Fitriani',
+            name: 'CutFitriani',
             child: 'Putri pertama',
             father: 'Muktar Rusli',
             mother: 'Jawarni Sunartik',
