@@ -5,7 +5,7 @@ export const data = {
             name: 'MKhaled',
             child: 'Putra ke empat',
             father: 'Alm. Hasyem AR',
-            mother: 'Alm. Nuraini S',
+            mother: 'Alm. NurainiS',
             image: './src/assets/images/profil1.jpg'
         },
         P: {
