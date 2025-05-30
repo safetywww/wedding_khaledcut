@@ -18,12 +18,12 @@ export const wishas = () => {
     const [prevButton, nextButton] = wishasContainer.querySelectorAll('.button-grup button');
 
     const listItemBank = (data) => (
-        `  <figure data-aos="zoom-in" data-aos-duration="1000">
-                <img src=${data.icon} alt="bank icon animation">
-                <figcaption>No. Rekening ${data.rekening.slice(0, 4)}xxxx <br>A.n ${data.name}</figcaption>
-                <button data-rekening=${data.rekening} aria-label="copy rekening">Salin No. Rekening</button>
-           </figure>`
-    );
+  `<figure data-aos="zoom-in" data-aos-duration="1000">
+      <img src=${data.icon} alt="bank icon animation">
+      <figcaption style="display: none;">No. Rekening ${data.rekening} <br>A.n ${data.name}</figcaption>
+      <button data-rekening=${data.rekening} aria-label="copy rekening">Salin Rekening</button>
+   </figure>`
+);
 
     const initialBank = () => {
         const wishasBank = wishasContainer.children[1];
