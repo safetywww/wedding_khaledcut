@@ -75,14 +75,14 @@ export const data = {
     bank: [
         {
             id: 1,
-            name: 'Mempelai Pria',
-            icon: './src/assets/images/bsibaru.png',
+            name: 'M Khaled',
+            icon: './src/assets/images/bsibaru1.png',
             rekening: 'Terimakasih Sudah Hadir'
         },
         {
             id: 2,
-            name: 'Mempelai Wanita',
-            icon: './src/assets/images/bsibaru1.png',
+            name: 'Cut Fitriani',
+            icon: './src/assets/images/bsibaru.png',
             rekening: 'Terimakasih Sudah Hadir'
         },
     ],
