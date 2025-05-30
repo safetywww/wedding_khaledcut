@@ -20,11 +20,9 @@ export const wishas = () => {
     const listItemBank = (data) => (
   `<figure data-aos="zoom-in" data-aos-duration="1000">
       <img src=${data.icon} alt="bank icon animation">
-      <figcaption style="display: none;">No. Rekening ${data.rekening} <br>A.n ${data.name}</figcaption>
-      <button data-rekening=${data.rekening} aria-label="copy rekening">M Khaled_Cut Fitriani</button>
+      <figcaption>A.n ${data.name}</figcaption>
    </figure>`
 );
-
     const initialBank = () => {
         const wishasBank = wishasContainer.children[1];
         const [_, __, containerBank] = wishasBank.children;
